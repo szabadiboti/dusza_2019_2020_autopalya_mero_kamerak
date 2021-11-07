@@ -1,13 +1,13 @@
 from constants import MAX_MOTOR
 
-bitch = input("MELYIK GECI MERT CSALNI BAZDMEG??\n> ")
+who = input("Ki használja engedély nélkül a megkülönböztető jelzést?\n> ")
 exists = False
 infraction = "nem_szerepel"
 
 
 def run(read, i):
     global infraction, exists
-    if read.license == bitch:
+    if read.license == who:
         exists = True
         if infraction != "túllépte" and read.speed < MAX_MOTOR:
             infraction = "nem_lépte_túl"
