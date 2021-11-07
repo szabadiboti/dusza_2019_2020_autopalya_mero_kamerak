@@ -1,0 +1,10 @@
+10.feladat
+Kiegészítés #1:
+személyautók száma: 462
+motorok száma: 127
+buszok száma: 158
+teherautók száma: 252
+
+Kiegészítés #2:
+Első mért sebesség: 0:1:21 - 107
+Utolsó mért sebesség: 22:51:16 - 73
